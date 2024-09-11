@@ -12,12 +12,13 @@ website:
       - icon: github
       - icon: share
     left:
-      - text: "Home"
+      - text: "About"
         href: index.qmd
       - text: "More"
         menu: 
-          - talks.qmd
-          - about.qmd 
+          - projects.qmd
+          - CV.qmd
+          - links.qmd
 
 format:
   html:
