@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  navbar:
+    title: false
+    background: light
+    foreground: success
+    search: false
+    tools:
+      - icon: linkedin
+      - icon: github
+      - icon: share
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "More"
+        menu: 
+          - talks.qmd
+          - about.qmd 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
