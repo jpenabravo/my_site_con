@@ -9,7 +9,9 @@ website:
     search: false
     tools:
       - icon: linkedin
+        href: https://www.linkedin.com/in/josepenabravo
       - icon: github
+        href: https://github.com/jpenabravo
       - icon: share
     left:
       - text: "About"
@@ -19,10 +21,11 @@ website:
           - projects.qmd
           - CV.qmd
           - links.qmd
+  back-to-top-navigation: true
 
 format:
   html:
-    theme: cosmo
+    theme: morph
     css: styles.css
     toc: true
 
