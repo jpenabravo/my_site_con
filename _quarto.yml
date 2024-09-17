@@ -4,8 +4,6 @@ project:
 website:
   navbar:
     title: false
-    background: light
-    foreground: success
     search: false
     tools:
       - icon: linkedin
